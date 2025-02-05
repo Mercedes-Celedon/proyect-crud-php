@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "database_dia4";
+$database = "database_name";
 
 $connection = mysqli_connect($host, $username, $password, $database);
 
