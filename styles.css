@@ -1,0 +1,71 @@
+body{
+    max-width: auto;
+    background-color: #d4d8f0;
+}
+.patata {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #232946;
+    color: white;
+    text-align: center;
+    height: 100px;
+  }
+h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+.header{
+    height: 100%;
+    background-color: #232946;
+    color: aliceblue;
+    padding: 20px 0;
+}
+
+.navbar{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.agregar{
+    padding-top:40px;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.tarjeta{
+    background-color: #fffffe;
+    padding-bottom: 10px;
+    filter: drop-shadow(8px 8px 10px gray);
+    margin-top:20px;
+    border-radius: 5%;
+}
+
+.tarjeta:hover{
+    transform: scale(105%);
+}
+.descripcion{
+    padding: 10px 20px;
+}
+.perfil{
+    width: 100%;
+    height: 350px;
+    object-fit: cover!important;
+    border-radius: 5% 5% 0 0;
+}
+.tarjetas, .formulario{
+    padding:30px 10px 70px 10px; 
+}
+.fa-brands, .fa-solid{
+    width: 20px;
+    padding: 0 15px;
+}
+.logo-foo{
+    width: 150px;
+    height: auto;
+}
